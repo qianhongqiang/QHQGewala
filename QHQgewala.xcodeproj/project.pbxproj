@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7FB349051C76BC790035600F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB349041C76BC790035600F /* main.m */; };
+		7FB349081C76BC790035600F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB349071C76BC790035600F /* AppDelegate.m */; };
+		7FB3490E1C76BC7A0035600F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FB3490C1C76BC7A0035600F /* Main.storyboard */; };
+		7FB349101C76BC7A0035600F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FB3490F1C76BC7A0035600F /* Assets.xcassets */; };
+		7FB349131C76BC7A0035600F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FB349111C76BC7A0035600F /* LaunchScreen.storyboard */; };
+		7FB3491E1C76BC7A0035600F /* QHQgewalaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB3491D1C76BC7A0035600F /* QHQgewalaTests.m */; };
+		7FB349291C76BC7A0035600F /* QHQgewalaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB349281C76BC7A0035600F /* QHQgewalaUITests.m */; };
+		7FB349391C76C1680035600F /* TranslationTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB349381C76C1680035600F /* TranslationTabBarViewController.m */; };
+		7FB3493C1C76C5260035600F /* TranslationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB3493B1C76C5260035600F /* TranslationDelegate.m */; };
+		7FB3493F1C76C73C0035600F /* TranslationAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB3493E1C76C73C0035600F /* TranslationAnimator.m */; };
+		7FB349421C76E03C0035600F /* GewalaTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB349411C76E03C0035600F /* GewalaTabBar.m */; };
+		7FB349491C7714820035600F /* SuspendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB349481C7714820035600F /* SuspendViewController.m */; };
+		7FB3494C1C7715440035600F /* SuspendTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB3494B1C7715440035600F /* SuspendTableViewCell.m */; };
+		7FB3494F1C7717380035600F /* SuspendDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB3494E1C7717380035600F /* SuspendDetailViewController.m */; };
+		7FB349521C7718B10035600F /* SuspendAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB349511C7718B10035600F /* SuspendAnimator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7FB3491A1C76BC7A0035600F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FB348F81C76BC790035600F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FB348FF1C76BC790035600F;
+			remoteInfo = QHQgewala;
+		};
+		7FB349251C76BC7A0035600F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FB348F81C76BC790035600F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FB348FF1C76BC790035600F;
+			remoteInfo = QHQgewala;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7FB349001C76BC790035600F /* QHQgewala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QHQgewala.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FB349041C76BC790035600F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7FB349061C76BC790035600F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7FB349071C76BC790035600F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7FB3490D1C76BC7A0035600F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7FB3490F1C76BC7A0035600F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FB349121C76BC7A0035600F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7FB349141C76BC7A0035600F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FB349191C76BC7A0035600F /* QHQgewalaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QHQgewalaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FB3491D1C76BC7A0035600F /* QHQgewalaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QHQgewalaTests.m; sourceTree = "<group>"; };
+		7FB3491F1C76BC7A0035600F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FB349241C76BC7A0035600F /* QHQgewalaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QHQgewalaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FB349281C76BC7A0035600F /* QHQgewalaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QHQgewalaUITests.m; sourceTree = "<group>"; };
+		7FB3492A1C76BC7A0035600F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FB349371C76C1680035600F /* TranslationTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TranslationTabBarViewController.h; sourceTree = "<group>"; };
+		7FB349381C76C1680035600F /* TranslationTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TranslationTabBarViewController.m; sourceTree = "<group>"; };
+		7FB3493A1C76C5260035600F /* TranslationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TranslationDelegate.h; sourceTree = "<group>"; };
+		7FB3493B1C76C5260035600F /* TranslationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TranslationDelegate.m; sourceTree = "<group>"; };
+		7FB3493D1C76C73C0035600F /* TranslationAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TranslationAnimator.h; sourceTree = "<group>"; };
+		7FB3493E1C76C73C0035600F /* TranslationAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TranslationAnimator.m; sourceTree = "<group>"; };
+		7FB349401C76E03C0035600F /* GewalaTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GewalaTabBar.h; sourceTree = "<group>"; };
+		7FB349411C76E03C0035600F /* GewalaTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GewalaTabBar.m; sourceTree = "<group>"; };
+		7FB349471C7714820035600F /* SuspendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuspendViewController.h; sourceTree = "<group>"; };
+		7FB349481C7714820035600F /* SuspendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuspendViewController.m; sourceTree = "<group>"; };
+		7FB3494A1C7715440035600F /* SuspendTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuspendTableViewCell.h; sourceTree = "<group>"; };
+		7FB3494B1C7715440035600F /* SuspendTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuspendTableViewCell.m; sourceTree = "<group>"; };
+		7FB3494D1C7717380035600F /* SuspendDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuspendDetailViewController.h; sourceTree = "<group>"; };
+		7FB3494E1C7717380035600F /* SuspendDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuspendDetailViewController.m; sourceTree = "<group>"; };
+		7FB349501C7718B10035600F /* SuspendAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuspendAnimator.h; sourceTree = "<group>"; };
+		7FB349511C7718B10035600F /* SuspendAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuspendAnimator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FB348FD1C76BC790035600F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FB349161C76BC7A0035600F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FB349211C76BC7A0035600F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FB348F71C76BC790035600F = {
+			isa = PBXGroup;
+			children = (
+				7FB349021C76BC790035600F /* QHQgewala */,
+				7FB3491C1C76BC7A0035600F /* QHQgewalaTests */,
+				7FB349271C76BC7A0035600F /* QHQgewalaUITests */,
+				7FB349011C76BC790035600F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FB349011C76BC790035600F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FB349001C76BC790035600F /* QHQgewala.app */,
+				7FB349191C76BC7A0035600F /* QHQgewalaTests.xctest */,
+				7FB349241C76BC7A0035600F /* QHQgewalaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FB349021C76BC790035600F /* QHQgewala */ = {
+			isa = PBXGroup;
+			children = (
+				7FB349361C76BE6F0035600F /* Gewala */,
+				7FB349061C76BC790035600F /* AppDelegate.h */,
+				7FB349071C76BC790035600F /* AppDelegate.m */,
+				7FB3490C1C76BC7A0035600F /* Main.storyboard */,
+				7FB3490F1C76BC7A0035600F /* Assets.xcassets */,
+				7FB349111C76BC7A0035600F /* LaunchScreen.storyboard */,
+				7FB349141C76BC7A0035600F /* Info.plist */,
+				7FB349031C76BC790035600F /* Supporting Files */,
+			);
+			path = QHQgewala;
+			sourceTree = "<group>";
+		};
+		7FB349031C76BC790035600F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FB349041C76BC790035600F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7FB3491C1C76BC7A0035600F /* QHQgewalaTests */ = {
+			isa = PBXGroup;
+			children = (
+				7FB3491D1C76BC7A0035600F /* QHQgewalaTests.m */,
+				7FB3491F1C76BC7A0035600F /* Info.plist */,
+			);
+			path = QHQgewalaTests;
+			sourceTree = "<group>";
+		};
+		7FB349271C76BC7A0035600F /* QHQgewalaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7FB349281C76BC7A0035600F /* QHQgewalaUITests.m */,
+				7FB3492A1C76BC7A0035600F /* Info.plist */,
+			);
+			path = QHQgewalaUITests;
+			sourceTree = "<group>";
+		};
+		7FB349361C76BE6F0035600F /* Gewala */ = {
+			isa = PBXGroup;
+			children = (
+				7FB349461C7714820035600F /* suspend */,
+				7FB349371C76C1680035600F /* TranslationTabBarViewController.h */,
+				7FB349381C76C1680035600F /* TranslationTabBarViewController.m */,
+				7FB3493A1C76C5260035600F /* TranslationDelegate.h */,
+				7FB3493B1C76C5260035600F /* TranslationDelegate.m */,
+				7FB3493D1C76C73C0035600F /* TranslationAnimator.h */,
+				7FB3493E1C76C73C0035600F /* TranslationAnimator.m */,
+				7FB349401C76E03C0035600F /* GewalaTabBar.h */,
+				7FB349411C76E03C0035600F /* GewalaTabBar.m */,
+			);
+			path = Gewala;
+			sourceTree = "<group>";
+		};
+		7FB349461C7714820035600F /* suspend */ = {
+			isa = PBXGroup;
+			children = (
+				7FB349471C7714820035600F /* SuspendViewController.h */,
+				7FB349481C7714820035600F /* SuspendViewController.m */,
+				7FB3494A1C7715440035600F /* SuspendTableViewCell.h */,
+				7FB3494B1C7715440035600F /* SuspendTableViewCell.m */,
+				7FB3494D1C7717380035600F /* SuspendDetailViewController.h */,
+				7FB3494E1C7717380035600F /* SuspendDetailViewController.m */,
+				7FB349501C7718B10035600F /* SuspendAnimator.h */,
+				7FB349511C7718B10035600F /* SuspendAnimator.m */,
+			);
+			path = suspend;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FB348FF1C76BC790035600F /* QHQgewala */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FB3492D1C76BC7A0035600F /* Build configuration list for PBXNativeTarget "QHQgewala" */;
+			buildPhases = (
+				7FB348FC1C76BC790035600F /* Sources */,
+				7FB348FD1C76BC790035600F /* Frameworks */,
+				7FB348FE1C76BC790035600F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QHQgewala;
+			productName = QHQgewala;
+			productReference = 7FB349001C76BC790035600F /* QHQgewala.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7FB349181C76BC7A0035600F /* QHQgewalaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FB349301C76BC7A0035600F /* Build configuration list for PBXNativeTarget "QHQgewalaTests" */;
+			buildPhases = (
+				7FB349151C76BC7A0035600F /* Sources */,
+				7FB349161C76BC7A0035600F /* Frameworks */,
+				7FB349171C76BC7A0035600F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FB3491B1C76BC7A0035600F /* PBXTargetDependency */,
+			);
+			name = QHQgewalaTests;
+			productName = QHQgewalaTests;
+			productReference = 7FB349191C76BC7A0035600F /* QHQgewalaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7FB349231C76BC7A0035600F /* QHQgewalaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FB349331C76BC7A0035600F /* Build configuration list for PBXNativeTarget "QHQgewalaUITests" */;
+			buildPhases = (
+				7FB349201C76BC7A0035600F /* Sources */,
+				7FB349211C76BC7A0035600F /* Frameworks */,
+				7FB349221C76BC7A0035600F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FB349261C76BC7A0035600F /* PBXTargetDependency */,
+			);
+			name = QHQgewalaUITests;
+			productName = QHQgewalaUITests;
+			productReference = 7FB349241C76BC7A0035600F /* QHQgewalaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FB348F81C76BC790035600F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = qianhongqiang;
+				TargetAttributes = {
+					7FB348FF1C76BC790035600F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					7FB349181C76BC7A0035600F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 7FB348FF1C76BC790035600F;
+					};
+					7FB349231C76BC7A0035600F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 7FB348FF1C76BC790035600F;
+					};
+				};
+			};
+			buildConfigurationList = 7FB348FB1C76BC790035600F /* Build configuration list for PBXProject "QHQgewala" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FB348F71C76BC790035600F;
+			productRefGroup = 7FB349011C76BC790035600F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FB348FF1C76BC790035600F /* QHQgewala */,
+				7FB349181C76BC7A0035600F /* QHQgewalaTests */,
+				7FB349231C76BC7A0035600F /* QHQgewalaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FB348FE1C76BC790035600F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FB349131C76BC7A0035600F /* LaunchScreen.storyboard in Resources */,
+				7FB349101C76BC7A0035600F /* Assets.xcassets in Resources */,
+				7FB3490E1C76BC7A0035600F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FB349171C76BC7A0035600F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FB349221C76BC7A0035600F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FB348FC1C76BC790035600F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FB3493C1C76C5260035600F /* TranslationDelegate.m in Sources */,
+				7FB349421C76E03C0035600F /* GewalaTabBar.m in Sources */,
+				7FB3493F1C76C73C0035600F /* TranslationAnimator.m in Sources */,
+				7FB349491C7714820035600F /* SuspendViewController.m in Sources */,
+				7FB349081C76BC790035600F /* AppDelegate.m in Sources */,
+				7FB349391C76C1680035600F /* TranslationTabBarViewController.m in Sources */,
+				7FB3494C1C7715440035600F /* SuspendTableViewCell.m in Sources */,
+				7FB3494F1C7717380035600F /* SuspendDetailViewController.m in Sources */,
+				7FB349051C76BC790035600F /* main.m in Sources */,
+				7FB349521C7718B10035600F /* SuspendAnimator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FB349151C76BC7A0035600F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FB3491E1C76BC7A0035600F /* QHQgewalaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FB349201C76BC7A0035600F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FB349291C76BC7A0035600F /* QHQgewalaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7FB3491B1C76BC7A0035600F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FB348FF1C76BC790035600F /* QHQgewala */;
+			targetProxy = 7FB3491A1C76BC7A0035600F /* PBXContainerItemProxy */;
+		};
+		7FB349261C76BC7A0035600F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FB348FF1C76BC790035600F /* QHQgewala */;
+			targetProxy = 7FB349251C76BC7A0035600F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7FB3490C1C76BC7A0035600F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FB3490D1C76BC7A0035600F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7FB349111C76BC7A0035600F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FB349121C76BC7A0035600F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FB3492B1C76BC7A0035600F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7FB3492C1C76BC7A0035600F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FB3492E1C76BC7A0035600F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QHQgewala/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qianhongqiang.QHQgewala;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7FB3492F1C76BC7A0035600F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QHQgewala/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qianhongqiang.QHQgewala;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7FB349311C76BC7A0035600F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QHQgewalaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qianhongqiang.QHQgewalaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QHQgewala.app/QHQgewala";
+			};
+			name = Debug;
+		};
+		7FB349321C76BC7A0035600F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QHQgewalaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qianhongqiang.QHQgewalaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QHQgewala.app/QHQgewala";
+			};
+			name = Release;
+		};
+		7FB349341C76BC7A0035600F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QHQgewalaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qianhongqiang.QHQgewalaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QHQgewala;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7FB349351C76BC7A0035600F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QHQgewalaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qianhongqiang.QHQgewalaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QHQgewala;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FB348FB1C76BC790035600F /* Build configuration list for PBXProject "QHQgewala" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FB3492B1C76BC7A0035600F /* Debug */,
+				7FB3492C1C76BC7A0035600F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FB3492D1C76BC7A0035600F /* Build configuration list for PBXNativeTarget "QHQgewala" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FB3492E1C76BC7A0035600F /* Debug */,
+				7FB3492F1C76BC7A0035600F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7FB349301C76BC7A0035600F /* Build configuration list for PBXNativeTarget "QHQgewalaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FB349311C76BC7A0035600F /* Debug */,
+				7FB349321C76BC7A0035600F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7FB349331C76BC7A0035600F /* Build configuration list for PBXNativeTarget "QHQgewalaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FB349341C76BC7A0035600F /* Debug */,
+				7FB349351C76BC7A0035600F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FB348F81C76BC790035600F /* Project object */;
+}
